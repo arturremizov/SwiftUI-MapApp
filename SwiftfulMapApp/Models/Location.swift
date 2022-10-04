@@ -16,7 +16,14 @@ struct Location: Identifiable {
     let imageNames: [String]
     let link: String
     
+    // Identifiable
     var id: String {
         name + cityName
+    }
+}
+
+extension Location: Equatable {
+    static func == (lhs: Location, rhs: Location) -> Bool {
+        lhs.id == rhs.id
     }
 }
