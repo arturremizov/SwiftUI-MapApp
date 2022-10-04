@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF6A845128ECB6D200EBA787 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6A845028ECB6D200EBA787 /* LocationPreviewView.swift */; };
 		AFB3C09528EC4F7A002C36D1 /* SwiftfulMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB3C09428EC4F7A002C36D1 /* SwiftfulMapAppApp.swift */; };
 		AFB3C09728EC4F7A002C36D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB3C09628EC4F7A002C36D1 /* ContentView.swift */; };
 		AFB3C09C28EC4F7C002C36D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB3C09B28EC4F7C002C36D1 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF6A845028ECB6D200EBA787 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		AFB3C09128EC4F7A002C36D1 /* SwiftfulMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB3C09428EC4F7A002C36D1 /* SwiftfulMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulMapAppApp.swift; sourceTree = "<group>"; };
 		AFB3C09628EC4F7A002C36D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			children = (
 				AFB3C0AC28EC5445002C36D1 /* LocationsView.swift */,
 				AFB3C0B028EC6FC4002C36D1 /* LocationsListView.swift */,
+				AF6A845028ECB6D200EBA787 /* LocationPreviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				AFB3C0AB28EC52B6002C36D1 /* LocationsDataService.swift in Sources */,
 				AFB3C0B128EC6FC4002C36D1 /* LocationsListView.swift in Sources */,
+				AF6A845128ECB6D200EBA787 /* LocationPreviewView.swift in Sources */,
 				AFB3C0AF28EC68D4002C36D1 /* LocationsViewModel.swift in Sources */,
 				AFB3C09728EC4F7A002C36D1 /* ContentView.swift in Sources */,
 				AFB3C0AD28EC5445002C36D1 /* LocationsView.swift in Sources */,
