@@ -11,10 +11,6 @@ struct LocationsListView: View {
     
     @EnvironmentObject private var vm: LocationsViewModel
     
-    init() {
-        UITableView.appearance().backgroundColor = .green
-    }
-    
     var body: some View {
         List {
             ForEach(vm.locations) { location in
